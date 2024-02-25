@@ -1,0 +1,17 @@
+# Renombrar el archivo interactivo_N1.html a index.html
+mv interactivo_N1.html index.html
+
+# Inicializar un repositorio de git en esa carpeta
+git init
+
+# Agregar el archivo al repositorio
+git add index.html
+
+# Realizar un commit con un mensaje descriptivo
+git commit -m "Añadir archivo index.html como página principal"
+
+# Agregar un repositorio remoto (reemplazar nombre_de_usuario y nombre_de_repositorio)
+git remote add origin https://github.com/Dalila02/Dalila02-Dalila02.github.io.git
+
+# Enviar el archivo index.html a GitHub
+git push -u origin master
